@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<!-- Main  -->
+	<definition
+		name="main/index"
+		extends="mainLayout">
+		<put-attribute name="body"	value="/pages/main/index.jsp" />
+		
+		<put-list-attribute name="css">
+			<add-attribute value="&lt;link rel=&quot;stylesheet&quot; href=&quot;/lib/angular-mass-autocomplete/0.2.2/massautocomplete.theme.css&quot;&gt;" />
+			<add-attribute value="&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/page/main.css&quot;&gt;" />
+		</put-list-attribute>
+		
+		<put-list-attribute name="js">
+			<add-attribute value="&lt;script src=&quot;//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js&quot;&gt;&lt;/script&gt;" />
+			<add-attribute value="&lt;script src=&quot;//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-animate.min.js&quot;&gt;&lt;/script&gt;" />
+			<add-attribute value="&lt;script src=&quot;//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-sanitize.min.js&quot;&gt;&lt;/script&gt;" />
+			<add-attribute value="&lt;script src=&quot;//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js&quot;&gt;&lt;/script&gt;" />
+			<add-attribute value="&lt;script src=&quot;/lib/graphdracula/0.0.0/lib/dracula_graffle.js&quot;&gt;&lt;/script&gt;" />
+			<add-attribute value="&lt;script src=&quot;/lib/graphdracula/0.0.0/lib/dracula_graph.js&quot;&gt;&lt;/script&gt;" />
+			<add-attribute value="&lt;script src=&quot;/lib/graphdracula/0.0.0/lib/dracula_algorithms.js&quot;&gt;&lt;/script&gt;" />
+			<add-attribute value="&lt;script src=&quot;/lib/closure-library/0.0.0/base.js&quot;&gt;&lt;/script&gt;" />
+			<add-attribute value="&lt;script src=&quot;//cdnjs.cloudflare.com/ajax/libs/fuse.js/1.2.2/fuse.min.js&quot;&gt;&lt;/script&gt;" />
+			<add-attribute value="&lt;script src=&quot;/lib/angular-mass-autocomplete/0.2.2/massautocomplete.min.js&quot;&gt;&lt;/script&gt;" />
+			<add-attribute value="&lt;script src=&quot;/js/struct/experiencegraph.js&quot;&gt;&lt;/script&gt;" />
+			<add-attribute value="&lt;script src=&quot;/js/page/main/staticdata.js&quot;&gt;&lt;/script&gt;" />
+			<add-attribute value="&lt;script src=&quot;/js/page/main/mainPageApp.js&quot;&gt;&lt;/script&gt;" />
+			<add-attribute value="&lt;script src=&quot;/js/page/main/TermsService.js&quot;&gt;&lt;/script&gt;" />
+			<add-attribute value="&lt;script src=&quot;/js/page/main/searchController.js&quot;&gt;&lt;/script&gt;" />
+		</put-list-attribute>
+	</definition>
+	
+	<!-- Resume  -->
+	<definition
+		name="resume/index"
+		extends="mainLayout">
+		<put-attribute name="body"	value="/pages/resume/index.jsp" />
+		<put-list-attribute name="css"></put-list-attribute>
+		<put-list-attribute name="js"></put-list-attribute>
+	</definition>
+	<definition
+		name="resume/work_experience"
+		extends="mainLayout">
+		<put-attribute name="body"	value="/pages/resume/work_experience.jsp" />
+		<put-list-attribute name="css"></put-list-attribute>
+		<put-list-attribute name="js"></put-list-attribute>
+	</definition>
+	<definition
+		name="resume/coworkers"
+		extends="mainLayout">
+		<put-attribute name="body"	value="/pages/resume/coworkers.jsp" />
+		<put-list-attribute name="css"></put-list-attribute>
+		<put-list-attribute name="js"></put-list-attribute>
+	</definition>
+	<definition
+		name="resume/education"
+		extends="mainLayout">
+		<put-attribute name="body"	value="/pages/resume/education.jsp" />
+		<put-list-attribute name="css"></put-list-attribute>
+		<put-list-attribute name="js"></put-list-attribute>
+	</definition>	
+	
+	
+	<!-- Projects  -->
+	<definition
+		name="project/agilerails"
+		extends="mainLayout">
+		<put-attribute name="body"	value="/pages/project/agilerails.jsp" />
+		<put-list-attribute name="css"></put-list-attribute>
+		<put-list-attribute name="js"></put-list-attribute>
+	</definition>
+	<definition
+		name="project/steam_badger"
+		extends="mainLayout">
+		<put-attribute name="body"	value="/pages/project/steam_badger.jsp" />
+		<put-list-attribute name="css"></put-list-attribute>
+		<put-list-attribute name="js"></put-list-attribute>
+	</definition>
+	<definition
+		name="project/this_site"
+		extends="mainLayout">
+		<put-attribute name="body"	value="/pages/project/this_site.jsp" />
+		<put-list-attribute name="css"></put-list-attribute>
+		<put-list-attribute name="js"></put-list-attribute>
+	</definition>
+</tiles-definitions>
