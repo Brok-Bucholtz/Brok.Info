@@ -13,8 +13,7 @@
 	<div>
 		<dl class="dl-horizontal">
 			<dt>Environment:</dt><dd>C#, MVC.Net, Entity Framework</dd>
-			<dt>Source Code:</dt><dd><a href="#" target="_blank">GitHub</a></dd>
-			<dt>Issue Board:</dt><dd><a href="#" target="_blank">GitHub</a></dd>
+			<dt>Source Code:</dt><dd><a href="https://github.com/Brok-Bucholtz/SteamBadger" target="_blank">GitHub</a></dd>
 		</dl>
 	</div>
 </div>

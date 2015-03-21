@@ -34,36 +34,6 @@
 		</put-list-attribute>
 	</definition>
 	
-	<!-- Resume  -->
-	<definition
-		name="resume/index"
-		extends="mainLayout">
-		<put-attribute name="body"	value="/pages/resume/index.jsp" />
-		<put-list-attribute name="css"></put-list-attribute>
-		<put-list-attribute name="js"></put-list-attribute>
-	</definition>
-	<definition
-		name="resume/work_experience"
-		extends="mainLayout">
-		<put-attribute name="body"	value="/pages/resume/work_experience.jsp" />
-		<put-list-attribute name="css"></put-list-attribute>
-		<put-list-attribute name="js"></put-list-attribute>
-	</definition>
-	<definition
-		name="resume/coworkers"
-		extends="mainLayout">
-		<put-attribute name="body"	value="/pages/resume/coworkers.jsp" />
-		<put-list-attribute name="css"></put-list-attribute>
-		<put-list-attribute name="js"></put-list-attribute>
-	</definition>
-	<definition
-		name="resume/education"
-		extends="mainLayout">
-		<put-attribute name="body"	value="/pages/resume/education.jsp" />
-		<put-list-attribute name="css"></put-list-attribute>
-		<put-list-attribute name="js"></put-list-attribute>
-	</definition>	
-	
 	
 	<!-- Projects  -->
 	<definition

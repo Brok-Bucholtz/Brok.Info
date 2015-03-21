@@ -12,8 +12,7 @@
 	<div>
 		<dl class="dl-horizontal">
 			<dt>Environment:</dt><dd>Java, Spring MVC with Tiles, and Google App Engine</dd>
-			<dt>Source Code:</dt><dd><a href="#" target="_blank">GitHub</a></dd>
-			<dt>Issue Board:</dt><dd><a href="#" target="_blank">GitHub</a></dd>
+			<dt>Source Code:</dt><dd><a href="https://github.com/Brok-Bucholtz/Brok.Info" target="_blank">GitHub</a></dd>
 		</dl>
 	</div>
 </div>

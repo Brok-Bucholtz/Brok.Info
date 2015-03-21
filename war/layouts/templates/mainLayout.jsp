@@ -54,16 +54,6 @@ If you want to know more about the work that went into this site, check out brok
 				<div class="collapse navbar-collapse"  id="navbar-main-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Brok<span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="/resume/">Resume</a></li>
-								<li class="divider"></li>
-								<li><a href="/resume/work_experience">Work Experience</a></li>
-								<li><a href="/resume/coworkers">Co-Workers</a></li>
-								<li><a href="/resume/education">Education</a></li>
-							</ul>
-						</li>
-						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects<span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
 								<li><a href="/project/agilerails"><img src="http://developer.android.com/images/brand/Android_Robot_100.png" alt="Android Phone Robot">AgileRails</a></li>
