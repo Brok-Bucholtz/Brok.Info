@@ -1,6 +1,7 @@
-/war/lib/*
-/war/WEB-INF/lib/*
-/war/WEB-INF/classes/*
 /.classpath
-/.settings/*
 /.project
+
+/.settings/
+/target/
+
+/src/main/webapp/lib/
