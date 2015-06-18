@@ -76,6 +76,7 @@
             </plugin>
             <plugin>
               <artifactId>maven-compiler-plugin</artifactId>
+              <version>3.2</version>
               <configuration>
                 <source>${java.target.version}</source>
                 <target>${java.target.version}</target>

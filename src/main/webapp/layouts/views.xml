@@ -23,7 +23,6 @@
 			<add-attribute value="&lt;script src=&quot;/lib/graphdracula/0.0.0/lib/dracula_graffle.js&quot;&gt;&lt;/script&gt;" />
 			<add-attribute value="&lt;script src=&quot;/lib/graphdracula/0.0.0/lib/dracula_graph.js&quot;&gt;&lt;/script&gt;" />
 			<add-attribute value="&lt;script src=&quot;/lib/graphdracula/0.0.0/lib/dracula_algorithms.js&quot;&gt;&lt;/script&gt;" />
-			<add-attribute value="&lt;script src=&quot;/lib/closure-library/0.0.0/base.js&quot;&gt;&lt;/script&gt;" />
 			<add-attribute value="&lt;script src=&quot;//cdnjs.cloudflare.com/ajax/libs/fuse.js/1.2.2/fuse.min.js&quot;&gt;&lt;/script&gt;" />
 			<add-attribute value="&lt;script src=&quot;/lib/angular-mass-autocomplete/0.2.2/massautocomplete.min.js&quot;&gt;&lt;/script&gt;" />
 			<add-attribute value="&lt;script src=&quot;/js/struct/experiencegraph.js&quot;&gt;&lt;/script&gt;" />

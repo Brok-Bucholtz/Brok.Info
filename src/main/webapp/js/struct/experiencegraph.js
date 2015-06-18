@@ -70,8 +70,9 @@ brok.ExperienceNode = function(name, expType, yearsOfExp, positions, projects){
  */
 brok.ExperienceEdgeFactory = function(){
 	EdgeFactory.call(this)
-}
-goog.inherits(brok.ExperienceEdgeFactory, EdgeFactory);
+};
+brok.ExperienceEdgeFactory.prototype = Object.create(EdgeFactory.prototype);
+brok.ExperienceEdgeFactory.prototype.constructor = brok.ExperienceEdgeFactory;
 
 /**
  * Builds Edge for Experience Graph
@@ -96,8 +97,9 @@ brok.ExperienceEdgeFactory.prototype.build = function(source, target, relashions
 brok.ExperienceGraph = function(){
 	Graph.call(this);
 	this.edgeFactory = new brok.ExperienceEdgeFactory();
-}
-goog.inherits(brok.ExperienceGraph, Graph);
+};
+brok.ExperienceGraph.prototype = Object.create(Graph.prototype);
+brok.ExperienceGraph.prototype.constructor = brok.ExperienceGraph;
 
 /**
  * Adds an edge in an Experience Graph

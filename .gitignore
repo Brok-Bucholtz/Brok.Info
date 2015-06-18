@@ -2,6 +2,7 @@
 /.project
 
 /.settings/
+/.idea/
 /target/
 
 /src/main/webapp/lib/
