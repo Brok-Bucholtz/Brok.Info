@@ -14,7 +14,7 @@
 							placeholder="Java, MVC, etc.."
 							id="main-search-field">
 					</div>
-					<div class="row" id="searchResults-container">
+					<div class="row ng-cloak" id="searchResults-container">
 						<div class="row experience-row"
 							ng-repeat="selectedTerm in searchCrtl.selectedTerms track by $index"
 							ng-class-odd="'experience-odd'" ng-class-even="'experience-even'">
