@@ -57,15 +57,18 @@ If you want to know more about the work that went into this site, check out brok
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects<span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
 								<li><a href="/project/agilerails"><img src="http://developer.android.com/images/brand/Android_Robot_100.png" alt="Android Phone Robot">AgileRails</a></li>
-								<li><a href="/project/steam_badger"><img src="/img/cSharpIcon.png" alt="C# Logo">Steam Badger</a></li>
+								<li><a href="/project/steam_badger"><img src="/img/csharpicon-50.png" alt="C# Logo">Steam Badger</a></li>
 								<li><a href="/project/this_site"><img src="http://png-4.findicons.com/files/icons/1008/quiet/256/java.png" alt="Java Logo">This Site</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Social<span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
-								<li><a href="https://www.linkedin.com/in/brokb" target="_blank"><img src="/img/LinkedIn-Thumbnail.png" alt="LinkedIn Logo">LinkedIn</a></li>
+								<li><a href="https://www.linkedin.com/in/brokb" target="_blank"><img src="/img/linkedin-thumbnail-100.png" alt="LinkedIn Logo">LinkedIn</a></li>
 								<li><a href="https://plus.google.com/+BrokB/" target="_blank"><img src="https://ssl.gstatic.com/images/icons/gplus-16.png" alt="Google+ Logo">Google+</a></li>
+								<li><a href="https://github.com/Brok-Bucholtz" target="_blank"><img src="/img/github-mark-32px.png" alt="GitHub Logo">GitHub</a></li>
+								<li><a href="https://www.codeschool.com/users/BrokBucholtz" target="_blank"><img src="/img/codeschool-16.png" alt="Code School Logo">Code School</a></li>
+								<li><a href="https://www.hackerrank.com/Brok_Bucholtz" target="_blank"><img src="/img/hackerrank-16.png" alt="Hacker Rank Logo">Hacker Rank</a></li>
 							</ul>
 						</li>
 					</ul>
