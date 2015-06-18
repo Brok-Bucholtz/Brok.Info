@@ -76,6 +76,7 @@ If you want to know more about the work that went into this site, check out brok
 			<tiles:insertAttribute name="body" />
 		</div>
 	</div>
+	<script src="/js/googleanalytics.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 	<tilesx:useAttribute id="jsList" name="js" classname="java.util.List" />
