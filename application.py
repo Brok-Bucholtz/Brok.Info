@@ -23,11 +23,6 @@ def send_img(path):
     return send_from_directory('static/img', path)
 
 
-@application.route('/lib/<path:path>')
-def send_lib(path):
-    return send_from_directory('static/lib', path)
-
-
 @application.route('/favicon.ico')
 def favicon():
     return send_from_directory('static', 'favicon.ico', mimetype='image/vnd.microsoft.icon')
