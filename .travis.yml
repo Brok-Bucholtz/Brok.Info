@@ -1,6 +1,5 @@
-language: java
-jdk:
-  - openjdk7
+language: python
+python:
+  - "3.4"
 
-notifications:
-  email: false
+install: "pip install -r requirements.txt"
